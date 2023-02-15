@@ -1,0 +1,25 @@
+{
+    "name": "dnsblockingtest",
+    "version": "1.0.0",
+    "description": "A simple scaper that uses puppeteer to test DNS blocking performance.",
+    "main": "src/index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "consola": "^2.15.3",
+        "puppeteer": "^19.4.1",
+        "yargs": "^17.6.2"
+    },
+    "author": "Andrey Meshkov",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^8.31.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsx-a11y": "^6.6.1",
+        "eslint-plugin-react": "^7.31.11",
+        "eslint-plugin-react-hooks": "^4.6.0"
+    }
+}
